@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>ss</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row dbview">
+				<div class="col-xs-4">
+					选择环境：
+					<select>
+					  <option value ="127.0.0.1">Localhost</option>
+					  <option value ="192.168.7.61">Alpha</option>
+					  <option value="opel">Beta</option>
+					</select>
+				</div>
+				<div class="col-xs-6">
+					选择数据库为：<label class="db">127.0.0.1:27017</label>
+				</div>
+				
+				<div class="col-xs-2"><button class="btn btn-primary upload-btn"><span class="glyphicon glyphicon-cloud-upload"></span>&nbsp;&nbsp;&nbsp;上传</button></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10"><input type="text" class="form-control rootpath" placeholder="path/to/your/src/files"></div>
+				<div class="col-xs-2">
+					<button class="btn btn-primary view-btn"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;&nbsp;浏览</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<table class="table table-hover">
+					        <thead>
+					          <tr>
+					            <th>
+					            	<input id='all' type="checkbox"/>
+					            </th>
+					            <th>Filepath</th>
+					            <th>State</th>
+					          </tr>
+					        </thead>
+					        <tbody class="fileview">
+					          
+					        </tbody>
+					      </table>					
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+	</html>	

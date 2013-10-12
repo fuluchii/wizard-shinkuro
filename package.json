@@ -1,0 +1,7 @@
+{
+  "name": "shinkuro.app",
+  "main": "index.html",
+  "window": {
+    "toolbar":true
+  }
+}
